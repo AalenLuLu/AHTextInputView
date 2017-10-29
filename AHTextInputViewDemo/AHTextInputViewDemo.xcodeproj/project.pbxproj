@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3414841FA5BDA30063610E /* AHTextInputToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3414811FA5BDA30063610E /* AHTextInputToolBar.m */; };
+		FE3414851FA5BDA30063610E /* AHTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3414831FA5BDA30063610E /* AHTextInputView.m */; };
+		FE997E5C1FA5B8DD00128C88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE997E5B1FA5B8DD00128C88 /* AppDelegate.m */; };
+		FE997E5F1FA5B8DD00128C88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE997E5E1FA5B8DD00128C88 /* ViewController.m */; };
+		FE997E621FA5B8DD00128C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE997E601FA5B8DD00128C88 /* Main.storyboard */; };
+		FE997E641FA5B8DD00128C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE997E631FA5B8DD00128C88 /* Assets.xcassets */; };
+		FE997E671FA5B8DD00128C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE997E651FA5B8DD00128C88 /* LaunchScreen.storyboard */; };
+		FE997E6A1FA5B8DD00128C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE997E691FA5B8DD00128C88 /* main.m */; };
+		FE997E741FA5B8DD00128C88 /* AHTextInputViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE997E731FA5B8DD00128C88 /* AHTextInputViewDemoTests.m */; };
+		FE997E7F1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE997E7E1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE997E701FA5B8DD00128C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE997E4F1FA5B8DD00128C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE997E561FA5B8DD00128C88;
+			remoteInfo = AHTextInputViewDemo;
+		};
+		FE997E7B1FA5B8DD00128C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE997E4F1FA5B8DD00128C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE997E561FA5B8DD00128C88;
+			remoteInfo = AHTextInputViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE3414801FA5BDA30063610E /* AHTextInputToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHTextInputToolBar.h; sourceTree = "<group>"; };
+		FE3414811FA5BDA30063610E /* AHTextInputToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHTextInputToolBar.m; sourceTree = "<group>"; };
+		FE3414821FA5BDA30063610E /* AHTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHTextInputView.h; sourceTree = "<group>"; };
+		FE3414831FA5BDA30063610E /* AHTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHTextInputView.m; sourceTree = "<group>"; };
+		FE997E571FA5B8DD00128C88 /* AHTextInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHTextInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE997E5A1FA5B8DD00128C88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE997E5B1FA5B8DD00128C88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE997E5D1FA5B8DD00128C88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE997E5E1FA5B8DD00128C88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE997E611FA5B8DD00128C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE997E631FA5B8DD00128C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE997E661FA5B8DD00128C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE997E681FA5B8DD00128C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE997E691FA5B8DD00128C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE997E6F1FA5B8DD00128C88 /* AHTextInputViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHTextInputViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE997E731FA5B8DD00128C88 /* AHTextInputViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHTextInputViewDemoTests.m; sourceTree = "<group>"; };
+		FE997E751FA5B8DD00128C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE997E7A1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHTextInputViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE997E7E1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHTextInputViewDemoUITests.m; sourceTree = "<group>"; };
+		FE997E801FA5B8DD00128C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE997E541FA5B8DD00128C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE997E6C1FA5B8DD00128C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE997E771FA5B8DD00128C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE34147F1FA5BDA30063610E /* AHTextInputView */ = {
+			isa = PBXGroup;
+			children = (
+				FE3414801FA5BDA30063610E /* AHTextInputToolBar.h */,
+				FE3414811FA5BDA30063610E /* AHTextInputToolBar.m */,
+				FE3414821FA5BDA30063610E /* AHTextInputView.h */,
+				FE3414831FA5BDA30063610E /* AHTextInputView.m */,
+			);
+			name = AHTextInputView;
+			path = ../AHTextInputView;
+			sourceTree = "<group>";
+		};
+		FE997E4E1FA5B8DD00128C88 = {
+			isa = PBXGroup;
+			children = (
+				FE34147F1FA5BDA30063610E /* AHTextInputView */,
+				FE997E591FA5B8DD00128C88 /* AHTextInputViewDemo */,
+				FE997E721FA5B8DD00128C88 /* AHTextInputViewDemoTests */,
+				FE997E7D1FA5B8DD00128C88 /* AHTextInputViewDemoUITests */,
+				FE997E581FA5B8DD00128C88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE997E581FA5B8DD00128C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE997E571FA5B8DD00128C88 /* AHTextInputViewDemo.app */,
+				FE997E6F1FA5B8DD00128C88 /* AHTextInputViewDemoTests.xctest */,
+				FE997E7A1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE997E591FA5B8DD00128C88 /* AHTextInputViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE997E5A1FA5B8DD00128C88 /* AppDelegate.h */,
+				FE997E5B1FA5B8DD00128C88 /* AppDelegate.m */,
+				FE997E5D1FA5B8DD00128C88 /* ViewController.h */,
+				FE997E5E1FA5B8DD00128C88 /* ViewController.m */,
+				FE997E601FA5B8DD00128C88 /* Main.storyboard */,
+				FE997E631FA5B8DD00128C88 /* Assets.xcassets */,
+				FE997E651FA5B8DD00128C88 /* LaunchScreen.storyboard */,
+				FE997E681FA5B8DD00128C88 /* Info.plist */,
+				FE997E691FA5B8DD00128C88 /* main.m */,
+			);
+			path = AHTextInputViewDemo;
+			sourceTree = "<group>";
+		};
+		FE997E721FA5B8DD00128C88 /* AHTextInputViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE997E731FA5B8DD00128C88 /* AHTextInputViewDemoTests.m */,
+				FE997E751FA5B8DD00128C88 /* Info.plist */,
+			);
+			path = AHTextInputViewDemoTests;
+			sourceTree = "<group>";
+		};
+		FE997E7D1FA5B8DD00128C88 /* AHTextInputViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE997E7E1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.m */,
+				FE997E801FA5B8DD00128C88 /* Info.plist */,
+			);
+			path = AHTextInputViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE997E561FA5B8DD00128C88 /* AHTextInputViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE997E831FA5B8DD00128C88 /* Build configuration list for PBXNativeTarget "AHTextInputViewDemo" */;
+			buildPhases = (
+				FE997E531FA5B8DD00128C88 /* Sources */,
+				FE997E541FA5B8DD00128C88 /* Frameworks */,
+				FE997E551FA5B8DD00128C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHTextInputViewDemo;
+			productName = AHTextInputViewDemo;
+			productReference = FE997E571FA5B8DD00128C88 /* AHTextInputViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE997E6E1FA5B8DD00128C88 /* AHTextInputViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE997E861FA5B8DD00128C88 /* Build configuration list for PBXNativeTarget "AHTextInputViewDemoTests" */;
+			buildPhases = (
+				FE997E6B1FA5B8DD00128C88 /* Sources */,
+				FE997E6C1FA5B8DD00128C88 /* Frameworks */,
+				FE997E6D1FA5B8DD00128C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE997E711FA5B8DD00128C88 /* PBXTargetDependency */,
+			);
+			name = AHTextInputViewDemoTests;
+			productName = AHTextInputViewDemoTests;
+			productReference = FE997E6F1FA5B8DD00128C88 /* AHTextInputViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE997E791FA5B8DD00128C88 /* AHTextInputViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE997E891FA5B8DD00128C88 /* Build configuration list for PBXNativeTarget "AHTextInputViewDemoUITests" */;
+			buildPhases = (
+				FE997E761FA5B8DD00128C88 /* Sources */,
+				FE997E771FA5B8DD00128C88 /* Frameworks */,
+				FE997E781FA5B8DD00128C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE997E7C1FA5B8DD00128C88 /* PBXTargetDependency */,
+			);
+			name = AHTextInputViewDemoUITests;
+			productName = AHTextInputViewDemoUITests;
+			productReference = FE997E7A1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE997E4F1FA5B8DD00128C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Aalen;
+				TargetAttributes = {
+					FE997E561FA5B8DD00128C88 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					FE997E6E1FA5B8DD00128C88 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE997E561FA5B8DD00128C88;
+					};
+					FE997E791FA5B8DD00128C88 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE997E561FA5B8DD00128C88;
+					};
+				};
+			};
+			buildConfigurationList = FE997E521FA5B8DD00128C88 /* Build configuration list for PBXProject "AHTextInputViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE997E4E1FA5B8DD00128C88;
+			productRefGroup = FE997E581FA5B8DD00128C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE997E561FA5B8DD00128C88 /* AHTextInputViewDemo */,
+				FE997E6E1FA5B8DD00128C88 /* AHTextInputViewDemoTests */,
+				FE997E791FA5B8DD00128C88 /* AHTextInputViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE997E551FA5B8DD00128C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE997E671FA5B8DD00128C88 /* LaunchScreen.storyboard in Resources */,
+				FE997E641FA5B8DD00128C88 /* Assets.xcassets in Resources */,
+				FE997E621FA5B8DD00128C88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE997E6D1FA5B8DD00128C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE997E781FA5B8DD00128C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE997E531FA5B8DD00128C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3414841FA5BDA30063610E /* AHTextInputToolBar.m in Sources */,
+				FE997E5F1FA5B8DD00128C88 /* ViewController.m in Sources */,
+				FE997E6A1FA5B8DD00128C88 /* main.m in Sources */,
+				FE997E5C1FA5B8DD00128C88 /* AppDelegate.m in Sources */,
+				FE3414851FA5BDA30063610E /* AHTextInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE997E6B1FA5B8DD00128C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE997E741FA5B8DD00128C88 /* AHTextInputViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE997E761FA5B8DD00128C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE997E7F1FA5B8DD00128C88 /* AHTextInputViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE997E711FA5B8DD00128C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE997E561FA5B8DD00128C88 /* AHTextInputViewDemo */;
+			targetProxy = FE997E701FA5B8DD00128C88 /* PBXContainerItemProxy */;
+		};
+		FE997E7C1FA5B8DD00128C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE997E561FA5B8DD00128C88 /* AHTextInputViewDemo */;
+			targetProxy = FE997E7B1FA5B8DD00128C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE997E601FA5B8DD00128C88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE997E611FA5B8DD00128C88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE997E651FA5B8DD00128C88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE997E661FA5B8DD00128C88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE997E811FA5B8DD00128C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE997E821FA5B8DD00128C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE997E841FA5B8DD00128C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHTextInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHTextInputViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE997E851FA5B8DD00128C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHTextInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHTextInputViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE997E871FA5B8DD00128C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHTextInputViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHTextInputViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHTextInputViewDemo.app/AHTextInputViewDemo";
+			};
+			name = Debug;
+		};
+		FE997E881FA5B8DD00128C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHTextInputViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHTextInputViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHTextInputViewDemo.app/AHTextInputViewDemo";
+			};
+			name = Release;
+		};
+		FE997E8A1FA5B8DD00128C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHTextInputViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHTextInputViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AHTextInputViewDemo;
+			};
+			name = Debug;
+		};
+		FE997E8B1FA5B8DD00128C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHTextInputViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHTextInputViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AHTextInputViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE997E521FA5B8DD00128C88 /* Build configuration list for PBXProject "AHTextInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE997E811FA5B8DD00128C88 /* Debug */,
+				FE997E821FA5B8DD00128C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE997E831FA5B8DD00128C88 /* Build configuration list for PBXNativeTarget "AHTextInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE997E841FA5B8DD00128C88 /* Debug */,
+				FE997E851FA5B8DD00128C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE997E861FA5B8DD00128C88 /* Build configuration list for PBXNativeTarget "AHTextInputViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE997E871FA5B8DD00128C88 /* Debug */,
+				FE997E881FA5B8DD00128C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE997E891FA5B8DD00128C88 /* Build configuration list for PBXNativeTarget "AHTextInputViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE997E8A1FA5B8DD00128C88 /* Debug */,
+				FE997E8B1FA5B8DD00128C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE997E4F1FA5B8DD00128C88 /* Project object */;
+}
